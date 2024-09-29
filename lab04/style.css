@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(85, 49, 3);
+    color: rgb(224, 223, 204);
+}
+img{
+    padding-left:40%;
+}
+h1{
+    border: thick double black;
+    padding-left:35%;
+    font-family:sans-serif;
+}
+h2{
+    border-bottom: 2mm ridge brown;
+    font-weight: 100;
+    font-family:sans-serif;
+}
+h3{
+    border-bottom: 1mm ridge brown;
+    font-weight: 100;
+    font-family:sans-serif;
+}
+p{
+    font-family:sans-serif;
+}
+ul{
+    font-family:sans-serif;
+}
+ol{
+    font-family: sans-serif;
+}
+footer{
+    padding-left: 40%;
+}
+a:hover{
+    color:rgb(224, 223, 204);
+}
