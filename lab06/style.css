@@ -1,0 +1,35 @@
+/*Mobile Design */
+*{
+    box-sizing: border-box;
+    margin: 1;
+    display: block;
+}
+body{
+    background-color: #494d5f;
+    color: #e5eaf5;
+}
+h1{
+    border: thick double #a0d2eb;
+    text-align:center;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:auto;
+}
+h2{
+    box-sizing: border-box;
+    border-bottom: 2mm ridge #a0d2eb;
+    text-align: center;
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
