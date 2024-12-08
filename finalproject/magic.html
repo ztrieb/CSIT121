@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic The Gathering</title>
+    <link rel="stylesheet" href="./style4.css">
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="https://ztrieb.github.io/CSIT121/finalproject/index.html">HTML Basics!</a>
+        <a href="https://ztrieb.github.io/CSIT121/finalproject/espresso.html">Espresso Blog Post</a>
+        <a href="https://ztrieb.github.io/CSIT121/finalproject/moonlight.html">The Moonlight 5K Blog Post</a>
+        <a href="https://ztrieb.github.io/CSIT121/finalproject/evaluation.html">Green Joe Coffee School Evaluation</a>
+        <a href="https://ztrieb.github.io/CSIT121/finalproject/tierlist.html">Burger Tier List</a>
+        <a href="https://ztrieb.github.io/CSIT121/finalproject/contact.html">Tier List Contact Page</a>
+      </div>
+      <div id="main">
+        <header><h1>Magic The Gathering</h1></header>
+      <span onclick="openNav()"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></span>
+      <img src="./images/magic.JPG" alt="Cat sitting at table, playing Magic the Gathering" height="400" width="400" class="center">
+      <h2>What is this?</h2>
+      <p>This is a photo of my cat getting ready to destroy us in Magic the Gathering.</p>
+      <h2>Why did I choose this JPG?</h2>
+      <p>Mostly because it is a funny photo, but I recently have gotten into Magic the Gathering. Magic the Gathering is a trading card game that is just about as old as I am, but still holds up great.</p>
+      </div>
+      <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+    
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+</body>
+<footer>The JPG image is my own. No sources to site.</footer>
+</html>

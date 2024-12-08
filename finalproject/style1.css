@@ -1,0 +1,136 @@
+body{
+    background-color: #c9af98;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #353844;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main{
+    transition: margin-left .5s;
+    padding: 15px;
+}
+
+body {
+    transition: margin-left 0.5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*Mobile Design */
+
+h1{
+    border: thick double #002D72;
+    text-align:center;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.menu{
+    text-align:left;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #002D72;
+    box-sizing: border-box;
+}
+.container1{
+    margin: 10px;
+    border: 2px solid #002D72;
+    box-sizing: border-box;
+}
+.container2{
+    margin: 10px;
+    border: 2px solid #002D72;
+    box-sizing: border-box;
+}
+.container3{
+    margin: 10px;
+    border: 2px solid #002D72;
+    box-sizing: border-box;
+}
+.bar1, .bar2, .bar3{
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    display: block;
+    cursor: pointer;
+}
+h2{
+    box-sizing: border-box;
+    border: thick double #002D72;
+    text-align: center;
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul{
+    font-family:Arial, Helvetica, sans-serif;
+    list-style-type: circle;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    display: list-item;
+}
+a:hover{
+    color: #8458b3;
+}
+.underline{
+    text-decoration: double underline #002D72;
+}
+#font{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+/* Desktop Multi-Column Design */
+@media (min-width: 1000px) {
+#wrapper{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    max-width: 2000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+footer{
+    text-align: center;
+}
